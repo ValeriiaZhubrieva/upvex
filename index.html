@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Название страницы</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div class="wraper">
+    <header class="header">
+        <div class="content">
+            <div class="header_block">
+                <a href="index.html" class="logo_lg logo"><img src="img/logo-dark.png" alt=""></a>
+                <a href="index.html" class="logo_sm logo"><img src="img/logo-sm.png" alt=""></a>
+                <div class="lk_block">
+                    <div class="lk_menu">
+                        <a href="javascript:void(0)">
+                            <i class="la la-user"></i>
+                            Профиль
+                        </a>
+                        <a href="javascript:void(0)">
+                            <i class="la la-money"></i>
+                            Тариф
+                        </a>
+                        <a href="javascript:void(0)">
+                            <i class="la la-wrench"></i>
+                            Пользователи
+                        </a>
+                        <div class="exit">
+                            <a href="javascript:void(0)">
+                                <i class="la la-times-circle"></i>
+                                Выход
+                            </a>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0)">
+                        <span class="user1"></span>
+                        <p>
+                            Marcia J.
+                            <i class="mdi mdi-chevron-down"></i>
+                        </p>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="header_menu">
+            <div class="content">
+                <div class="header_block">
+                    <ul>
+                        <li class="parent">
+                            <a href="javascript:void(0)">
+                                <i class="la la-file-text-o"></i>
+                                Документы
+                                <span class="mdi mdi-chevron-down"></span>
+                            </a>
+                            <ul class="pod_menu">
+                                <li><a href="javascript:void(0)">Список документов</a></li>
+                                <li><a href="javascript:void(0)">Новый документ</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:void(0)">
+                            <i class="la la-cube"></i>
+                            Блоки
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section">
+        <div class="zag_line">
+            <div class="content">
+                <div class="zag">
+                    <h2>Список документов</h2>
+                </div>
+            </div>
+        </div>
+        <div class="filter_line">
+            <div class="content">
+                <form action="javascript:void(0)" class="filter">
+                    <input type="text" placeholder="Search...">
+                    <div class="select_block">
+                        <p>Sort By</p>
+                        <select>
+                            <option value="All">All</option>
+                            <option value="All_1">All_1</option>
+                            <option value="All_2">All_2</option>
+                        </select>
+                    </div>
+                </form>
+                <a href="javascript:void(0)" class="add">
+                    <i class="mdi mdi-plus-circle"></i>
+                    Добавить документ
+                </a>
+            </div>
+        </div>
+        <div class="content">
+            <table width="100%" border="0" class="table">
+                <tbody>
+                <tr class="zag">
+                    <th scope="col">id</th>
+                    <th scope="col" class="hide hide6">название</th>
+                    <th scope="col" class="size hide hide5">описание</th>
+                    <th scope="col" class="hide hide4">статус</th>
+                    <th scope="col" class="hide hide3">создан</th>
+                    <th scope="col" class="hide hide2">изменён</th>
+                    <th scope="col" class="no_arrow hide hide1">действие</th>
+                </tr>
+                <tr class="open_info info_line">
+                    <td scope="col" class="id">#1020</td>
+                    <td scope="col" class="hide hide6" data-name="название">A new rating has been received </td>
+                    <td scope="col" class="hide hide5" data-name="описание" >A new rating has been received </td>
+                    <td scope="col"  class="hide hide4" data-name="статус"><span class="closet">Closed</span></td>
+                    <td scope="col" class="hide hide3" data-name="создан">2013/08/11 </td>
+                    <td scope="col" class="hide hide2" data-name="изменён">2013/08/30 </td>
+                    <td scope="col" class="hide hide1" data-name="действие">
+                        <div class="option">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <ul class="option_menu">
+                                <li><i class="la la-edit"></i> Свойства</li>
+                                <li><i class=" la la-download"></i>Скачать</li>
+                                <li><i class="la la-trash-o"></i>Удалить</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="children_wrap">
+                    <td class="chld" colspan="6">
+                        <ul class="list_info">
+
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="open_info info_line">
+                    <td scope="col" class="id">#1254</td>
+                    <td scope="col" class="hide hide6" data-name="название">Your application has been received!</td>
+                    <td scope="col" class="hide hide5" data-name="описание" >Your application has been received! </td>
+                    <td scope="col"  class="hide hide4" data-name="статус"><span class="closet">Closed</span></td>
+                    <td scope="col" class="hide hide3" data-name="создан">2013/08/11 </td>
+                    <td scope="col" class="hide hide2" data-name="изменён">2013/08/30 </td>
+                    <td scope="col" class="hide hide1" data-name="действие">
+                        <div class="option">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <ul class="option_menu">
+                                <li><i class="la la-edit"></i> Свойства</li>
+                                <li><i class=" la la-download"></i>Скачать</li>
+                                <li><i class="la la-trash-o"></i>Удалить</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="children_wrap">
+                    <td class="chld" colspan="6">
+                        <ul class="list_info">
+
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="open_info info_line">
+                    <td scope="col" class="id">#1256</td>
+                    <td scope="col" class="hide hide6" data-name="название">Support for theme </td>
+                    <td scope="col" class="hide hide5" data-name="описание" >Support for theme</td>
+                    <td scope="col"  class="hide hide4" data-name="статус"><span class="open">Open</span></td>
+                    <td scope="col" class="hide hide3" data-name="создан">2013/08/11 </td>
+                    <td scope="col" class="hide hide2" data-name="изменён">2013/08/30 </td>
+                    <td scope="col" class="hide hide1" data-name="действие">
+                        <div class="option">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <ul class="option_menu">
+                                <li><i class="la la-edit"></i> Свойства</li>
+                                <li><i class=" la la-download"></i>Скачать</li>
+                                <li><i class="la la-trash-o"></i>Удалить</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="children_wrap">
+                    <td class="chld" colspan="6">
+                        <ul class="list_info">
+
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="open_info info_line">
+                    <td scope="col" class="id">#1020</td>
+                    <td scope="col" class="hide hide6" data-name="название">A new rating has been received </td>
+                    <td scope="col" class="hide hide5" data-name="описание" >A new rating has been received </td>
+                    <td scope="col"  class="hide hide4" data-name="статус"><span class="closet">Closed</span></td>
+                    <td scope="col" class="hide hide3" data-name="создан">2013/08/11 </td>
+                    <td scope="col" class="hide hide2" data-name="изменён">2013/08/30 </td>
+                    <td scope="col" class="hide hide1" data-name="действие">
+                        <div class="option">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <ul class="option_menu">
+                                <li><i class="la la-edit"></i> Свойства</li>
+                                <li><i class=" la la-download"></i>Скачать</li>
+                                <li><i class="la la-trash-o"></i>Удалить</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="children_wrap">
+                    <td class="chld" colspan="6">
+                        <ul class="list_info">
+
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="open_info info_line">
+                    <td scope="col" class="id">#1254</td>
+                    <td scope="col" class="hide hide6" data-name="название">Your application has been received!</td>
+                    <td scope="col" class="hide hide5" data-name="описание" >Your application has been received! </td>
+                    <td scope="col"  class="hide hide4" data-name="статус"><span class="closet">Closed</span></td>
+                    <td scope="col" class="hide hide3" data-name="создан">2013/08/11 </td>
+                    <td scope="col" class="hide hide2" data-name="изменён">2013/08/30 </td>
+                    <td scope="col" class="hide hide1" data-name="действие">
+                        <div class="option">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <ul class="option_menu">
+                                <li><i class="la la-edit"></i> Свойства</li>
+                                <li><i class=" la la-download"></i>Скачать</li>
+                                <li><i class="la la-trash-o"></i>Удалить</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="children_wrap">
+                    <td class="chld" colspan="6">
+                        <ul class="list_info">
+
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="open_info info_line">
+                    <td scope="col" class="id">#1256</td>
+                    <td scope="col" class="hide hide6" data-name="название">Support for theme </td>
+                    <td scope="col" class="hide hide5" data-name="описание" >Support for theme</td>
+                    <td scope="col"  class="hide hide4" data-name="статус"><span class="open">Open</span></td>
+                    <td scope="col" class="hide hide3" data-name="создан">2013/08/11 </td>
+                    <td scope="col" class="hide hide2" data-name="изменён">2013/08/30 </td>
+                    <td scope="col" class="hide hide1" data-name="действие">
+                        <div class="option">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <ul class="option_menu">
+                                <li><i class="la la-edit"></i> Свойства</li>
+                                <li><i class=" la la-download"></i>Скачать</li>
+                                <li><i class="la la-trash-o"></i>Удалить</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="children_wrap">
+                    <td class="chld" colspan="6">
+                        <ul class="list_info">
+
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="open_info info_line">
+                    <td scope="col" class="id">#1020</td>
+                    <td scope="col" class="hide hide6" data-name="название">A new rating has been received </td>
+                    <td scope="col" class="hide hide5" data-name="описание" >A new rating has been received </td>
+                    <td scope="col"  class="hide hide4" data-name="статус"><span class="closet">Closed</span></td>
+                    <td scope="col" class="hide hide3" data-name="создан">2013/08/11 </td>
+                    <td scope="col" class="hide hide2" data-name="изменён">2013/08/30 </td>
+                    <td scope="col" class="hide hide1" data-name="действие">
+                        <div class="option">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <ul class="option_menu">
+                                <li><i class="la la-edit"></i> Свойства</li>
+                                <li><i class=" la la-download"></i>Скачать</li>
+                                <li><i class="la la-trash-o"></i>Удалить</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="children_wrap">
+                    <td class="chld" colspan="6">
+                        <ul class="list_info">
+
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="open_info info_line">
+                    <td scope="col" class="id">#1254</td>
+                    <td scope="col" class="hide hide6" data-name="название">Your application has been received!</td>
+                    <td scope="col" class="hide hide5" data-name="описание" >Your application has been received! </td>
+                    <td scope="col"  class="hide hide4" data-name="статус"><span class="closet">Closed</span></td>
+                    <td scope="col" class="hide hide3" data-name="создан">2013/08/11 </td>
+                    <td scope="col" class="hide hide2" data-name="изменён">2013/08/30 </td>
+                    <td scope="col" class="hide hide1" data-name="действие">
+                        <div class="option">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <ul class="option_menu">
+                                <li><i class="la la-edit"></i> Свойства</li>
+                                <li><i class=" la la-download"></i>Скачать</li>
+                                <li><i class="la la-trash-o"></i>Удалить</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="children_wrap">
+                    <td class="chld" colspan="6">
+                        <ul class="list_info">
+
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="open_info info_line">
+                    <td scope="col" class="id">#1256</td>
+                    <td scope="col" class="hide hide6" data-name="название">Support for theme </td>
+                    <td scope="col" class="hide hide5" data-name="описание" >Support for theme</td>
+                    <td scope="col"  class="hide hide4" data-name="статус"><span class="open">Open</span></td>
+                    <td scope="col" class="hide hide3" data-name="создан">2013/08/11 </td>
+                    <td scope="col" class="hide hide2" data-name="изменён">2013/08/30 </td>
+                    <td scope="col" class="hide hide1" data-name="действие">
+                        <div class="option">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <ul class="option_menu">
+                                <li><i class="la la-edit"></i> Свойства</li>
+                                <li><i class=" la la-download"></i>Скачать</li>
+                                <li><i class="la la-trash-o"></i>Удалить</li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="children_wrap">
+                    <td class="chld" colspan="6">
+                        <ul class="list_info">
+
+                        </ul>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="namber_line">
+                <p>Showing 1 to 10 of 15 entries</p>
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)"><i class="mdi mdi-chevron-left"></i></a>
+                    </li>
+                    <li class="action"><a href="javascript:void(0)">1</a></li>
+                    <li><a href="javascript:void(0)">2</a></li>
+                    <li>
+                        <a href="javascript:void(0)"><i class="mdi mdi-chevron-right"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+
+<script src="js/slick.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
